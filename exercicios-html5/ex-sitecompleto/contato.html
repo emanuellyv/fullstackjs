@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contrate - Space X</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <img src="imagens/logo.png" alt="Logo do site">
+            </a>
+            |
+            <a href="naves.html">Naves</a>
+            |
+            <a href="contato.html">Contato</a>
+            <hr>
+        </nav>
+    </header>
+    <h2>Contrate-nos</h2>
+    <p>
+        Deixe uma mensagem caso deseje contratar algum de nossos serviços e nós responderemos assim que possível.
+    </p>
+    <br>
+    <section>
+        <form>
+            <div>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+                -
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+            </div>
+            <br><br>
+            <div>
+                <label for="nave">Nave: </label>
+                <select name="nave" id="nave">
+                    <option value="falcon9">Falcon 9</option>
+                    <option value="falconheavy">Falcon Heavy</option>
+                </select>
+                |
+                <label for="servico">Tipo de serviço: </label>
+                <input type="search" name="servico" id="servico" list="servico">
+                <datalist id="servico">
+                    <option value="Sed tristique ante dui"></option>
+                    <option value="Suspendisse eu metus non turpis"></option>
+                    <option value="Sed et faucibus ligula"></option>
+                    <option value="Pellentesque tristique egestas"></option>
+                </datalist>
+            </div>
+            <br><br>
+            <div>
+                <input type="submit" value="Enviar mensagem">
+            </div>            
+        </form>
+    </section>
+</body>
+</html>
