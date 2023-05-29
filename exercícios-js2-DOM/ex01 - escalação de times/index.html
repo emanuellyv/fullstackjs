@@ -8,6 +8,31 @@
 </head>
 <body>
     <h1>Escalação de times</h1>
+    <hr>
+
+    <div class="divsInputs" id="inputsPlayers"></div>
+
+    <div id="playersList">
+        <p id="divPosition"></p>
+        <p id="divPlayerName"></p>
+        <p id="divNumber"></p>
+    </div>
+
+    <div id="playerRemove">
+        <div id="numberRemove"></div>
+    </div>
+
+    <div id="buttonsConfirm">
+        <span id="buttonConfirm"></span>
+        <span id="buttonRemove"></span>
+        <span id="buttonCancel"></span>
+    </div>
+
+    <div id="defaultButtons">
+        <button id="buttonAddPlayer" onclick="addPlayer()">Escalar jogador</button>
+        <button id="buttonRemovePlayer" onclick="removePlayer()">Remover jogador</button>
+        <button id="buttonShowLine" onclick="showLine()">Mostrar escalação</button>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>
